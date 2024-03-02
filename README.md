@@ -1,0 +1,2 @@
+# X3DAudio_SpatialAudio
+XAudio2とX3DAudioを使用して、3Dオーディオを実現したクラスです。使いやすいようにカスタマイズもしています。
