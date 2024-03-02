@@ -140,6 +140,12 @@ public:
 	void StopBGM(int resourceNum);
 
 	/**
+	* @brief リソース番号指定でSE音楽データを停止
+	* @param resourceNum 停止するSEのリソース番号
+	*/
+	void StopSE(int resourceNum);
+
+	/**
 	* @brief 特定のシーン用の音楽データをロード
 	* @param loadScene ロードする音源のシーンタグ
 	*/

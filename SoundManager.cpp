@@ -213,6 +213,15 @@ void SoundManager::StopBGM(int resourceNum)
 }
 
 //=========================================
+// リソース番号指定でSE音楽データを停止
+//=========================================
+void SoundManager::StopSE(int resourceNum)
+{
+	SE_SourceVoice[resourceNum]->Stop();
+	SE_SourceVoice[resourceNum]->FlushSourceBuffers();
+}
+
+//=========================================
 // サウンドデータ読込
 //=========================================
 void SoundManager::Load(SoundData::Tag loadScene)
